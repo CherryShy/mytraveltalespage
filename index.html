@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Travel Tales!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .blog-section {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .social-links a {
+            margin: 0 5px;
+            color: #fff;
+        }
+
+        .newsletter-signup input[type="email"] {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-right: 10px;
+        }
+
+        .newsletter-signup button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .modal-content {
+            border-radius: 10px;
+        }
+        st {
+            background-image: url(https://wallpapers.com/images/featured/travel-ibk7fgrvtvhs7qzg.jpg);
+        }
+    </style>
+</head>
+
+<header class="bg-dark text-white text-center py-3">
+    <a class="navbar-brand" href="#">
+        <img src="http://upload.wikimedia.org/wikipedia/en/5/53/Traveller's_Tales_Logo.png" alt="TRAVEL TALES" style="width: 50px; height: auto;"> 
+    </a>
+    <h3>Welcome to My Travel Tales</h3>
+    <p>Exploring the world, one destination at a time.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#homeModal">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#signupModal">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <section class="hero text-center">
+        <section class="hero text-center" style="background-image: url('https://wallpapers.com/images/featured/travel-ibk7fgrvtvhs7qzg.jpg'); background-size: cover; background-position: center; color: white; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); padding: 60px 0;">
+        </section>
+
+    <main class="container">
+        <section class="blog-section st">
+            <h2>Explore the World!</h2>
+            <p>I'm Cherry Shy Sabarias, a passionate traveler with a wanderlust that knows no bounds. This blog is my way of sharing my experiences, tips, and insights from exploring the world.
+
+                Whether you're a seasoned adventurer or a first-time traveler, I hope to inspire you with stunning photography, captivating stories, and practical advice. Join me as I delve into diverse cultures, uncover hidden gems, and savor the beauty of our planet.</p>
+            
+            <p>Grab your passport, pack your bags, and let's embark on this journey together!</p>
+        </section>
+
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://jocyls.com/wp-content/uploads/2023/06/where-is-boracay-located-in-aklan.jpg
+    " class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">BORACAY</h5>
+                            <p class="card-text">Escape to paradise on Boracay, where pristine white-sand beaches meet crystal-clear turquoise waters. Sunbathe, swim, or simply lose yourself in the beauty of this world-famous island. Whether you're seeking adventure, relaxation, or unforgettable nightlife, Boracay has something for everyone.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.southeastasianarchaeology.com/wp-content/uploads/2022/05/Cagsawa-Ruins-The-Philippines.jpg
+    " class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">CAGSAWA RUINS</h5>
+                            <p class="card-text">Step back in time at the haunting Cagsawa Ruins, a poignant reminder of the destructive power of nature. The crumbling church, partially buried by volcanic ash, offers a powerful glimpse into the Philippines' past. Capture breathtaking photos against this dramatic backdrop and experience a unique piece of history.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://pinaywise.com/wp-content/uploads/2024/04/Puerto-Princesa-city-tour-attractions-Palawan-Philippines.jpg
+    " class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">PUERTO PRINCESA</h5>
+                            <p class="card-text">Embark on an unforgettable journey through the heart of Puerto Princesa, a UNESCO World Heritage site. Explore the awe-inspiring underground river, marvel at the diverse wildlife, and lose yourself in the breathtaking natural beauty of this hidden gem.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://tagaytaycity.ph/wp-content/uploads/2019/10/Picnic-Grove-4.1-1024x683.jpg
+    " class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">PICNIC GROVE TAGAYTAY</h5>
+                            <p class="card-text">Escape the city bustle and enjoy panoramic views of Taal Volcano at Picnic Grove. Take a leisurely stroll, ride the cable car, or indulge in a delicious picnic amidst the cool mountain air. It's the perfect place to relax, reconnect with nature, and create lasting memories.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.vacationhive.com/wp-content/uploads/2021/11/intramuros-content-image.png
+    " class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">INTRAMUROS MANILA</h5>
+                            <p class="card-text">Step into a world of Spanish colonial charm in Intramuros, Manila's historic walled city. Wander through cobblestone streets, explore ancient churches and forts, and immerse yourself in the rich history and culture of this fascinating destination.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://www.worldatlas.com/r/w1200/upload/a5/3e/60/shutterstock-627323633.jpg
+    " class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">BANAUE RICE TERRACES</h5>
+                            <p class="card-text">Witness the awe-inspiring Banaue Rice Terraces, a testament to the ingenuity and artistry of the Ifugao people. These ancient rice paddies, carved into the mountainside, are a UNESCO World Heritage site and a true marvel of engineering. Experience the beauty of this unique landscape and learn about the rich cultural heritage of the Ifugao people.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <div class="modal fade" id="homeModal" tabindex="-1" role="dialog" aria-labelledby="homeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="homeModalLabel">Home</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Welcome to the Home of My Travel. Explore our curated content, from travel tips to photography guides, and start your journey into the world of adventure. Whether you're here to read, learn, or get inspired, we've got you covered.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aboutModalLabel">About Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Let's explore the world together! Find travel inspiration, practical tips, and stunning photography on our blog.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="loginEmail">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="loginPassword">Password</label>
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="termsAndConditions">
+                                <label class="form-check-label" for="termsAndConditions">I agree to the <a href="#">Terms & Conditions</a></label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block mt-3">Sign Up</button>
+                        </form>
+                    </div>>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: cherryshysabarias@gmail.com</p>
+                    <p>Phone: +639386233677</p>
+                    <p>Address: Sto. Tomas, Batangas</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/cherryshyy" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </a><br>
+                        <a href="https://www.instagram.com/its.ch3rrys/profilecard/?igsh=NXAwbzRjd2I3MDd1" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a><br>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-4">&copy; 2024 My Travel Tales. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <style>
+    .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+    
+    .footer h5 {
+        font-weight: bold;
+        color:black;
+    }
+    
+    .social-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .social-icon i {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    
+    .social-icon:hover {
+        color:blue; 
+    }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
